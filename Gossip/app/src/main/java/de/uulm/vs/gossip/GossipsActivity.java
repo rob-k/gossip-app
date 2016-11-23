@@ -51,6 +51,8 @@ public class GossipsActivity extends AppCompatActivity implements AddPostDialogF
         if (app == null)
             app = (GossipApplication) getApplication();
 
+        // TODO Add this activity as listener
+
         // TODO Get references to the CRDTs
 
         listView = (ListView) findViewById(R.id.posts_listview);
